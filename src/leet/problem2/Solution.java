@@ -12,13 +12,17 @@ public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2){
         StringBuilder sb1 = new StringBuilder();
         StringBuilder sb2 = new StringBuilder();
-        while(l1 != null){
-            sb1.append(l1.val);
-            l1 = l1.next;
-        }
-        while(l2 != null){
-            sb2.append(l2.val);
-            l2 = l2.next;
+        while(l1 != null || l2 != null){
+            if(l1 !=null){
+                sb1.append(l1.val);
+                l1 = l1.next;
+            }
+            if(l2 != null){
+                sb2.append(l2.val);
+                l2 = l2.next;
+            }
+
+
         }
         sb1 = sb1.reverse();
         sb2 = sb2.reverse();
