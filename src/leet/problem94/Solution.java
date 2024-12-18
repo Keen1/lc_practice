@@ -3,25 +3,32 @@ package leet.problem94;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Solution {
-    List<Integer> inorderList = new ArrayList<>();
 
     public List<Integer> inorderTraversal(TreeNode root){
-        if(root.left != null){
-            inorderTraversal(root.left);
-
+        List<Integer> values = new ArrayList<>();
+        if(root == null){
+            return values;
         }
-        inorderList.add(root.val);
-
-        if(root.right != null){
-            inorderTraversal(root.right);
-            inorderList.add(root.val);
-
+        if (root.left == null && root.right == null) {
+            values.add(root.val);
+            return values;
         }
+        inorderTraversalHelper(root, values);
+        return values;
+    }
+
+    public void inorderTraversalHelper(TreeNode root, List<Integer> values){
+
+        if(root == null){
+            return;
+        }
+        inorderTraversalHelper(root.left, values);
+        values.add(root.val);
+        inorderTraversalHelper(root.right, values);
 
 
-        return inorderList;
 
     }
 }
-
