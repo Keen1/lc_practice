@@ -1,9 +1,8 @@
 package problem104;
 
 public class Solution {
-    public int maxDepth(TreeNode root){
-        return maxDepthFinder(root);
+    public void maxDepth(TreeNode root){
     }
-    public int maxDepthFinder(TreeNode root){
+    public void maxDepthFinder(TreeNode root){
     }
 }
