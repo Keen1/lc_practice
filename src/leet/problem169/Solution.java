@@ -1,4 +1,4 @@
-package problem169;
+package leet.problem169;
 
 import java.util.Arrays;
 

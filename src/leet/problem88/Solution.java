@@ -1,4 +1,4 @@
-package problem88;
+package leet.problem88;
 
 public class Solution {
 

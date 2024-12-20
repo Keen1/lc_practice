@@ -1,4 +1,4 @@
-package problem100;
+package leet.problem100;
 
 public class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q){

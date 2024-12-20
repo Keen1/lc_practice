@@ -1,4 +1,4 @@
-package problem104;
+package leet.problem104;
 
 public class Solution {
     public void maxDepth(TreeNode root){

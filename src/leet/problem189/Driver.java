@@ -1,4 +1,4 @@
-package problem189;
+package leet.problem189;
 
 public class Driver {
     public static void main(String[] args){
