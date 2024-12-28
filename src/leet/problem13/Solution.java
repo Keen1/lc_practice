@@ -19,8 +19,4 @@ package leet.problem13;
 * Given a roman numeral as a string, convert it to an integer.
 * */
 
-public class Solution {
-    public int romanToInt(String s){
 
-    }
-}

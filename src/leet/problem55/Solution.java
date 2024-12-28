@@ -23,6 +23,7 @@ class Solution {
             jumps = nums[k];
 
         }
+        return true;
 
 
     }
