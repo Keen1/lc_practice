@@ -8,6 +8,6 @@ whose sum is greater than or equal to target. If there is no such subarray, retu
 public class Solution {
 
     public int minSubArrayLen(int target, int[] nums){
-
+        return 0;
     }
 }
