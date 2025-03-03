@@ -14,8 +14,11 @@ public class Solution {
         }
     }
 
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2){
-        return l1;
+        return new ListNode();
+    }
+
+    public ListNode listNodeHelper(ListNode l1, ListNode l2){
+        return new ListNode();
     }
 }
